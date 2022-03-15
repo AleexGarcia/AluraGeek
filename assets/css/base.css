@@ -28,6 +28,10 @@ body{
 }
 .botaoPrimario:hover{
     background: #5595E9;
+    cursor: pointer;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+
 }
 .botaoSecundario{
     height: 51px;
@@ -44,6 +48,7 @@ body{
 }
 .botaoSecundario:hover{
     background: #D4E4FA;
+    cursor: pointer;
     
 }
 
@@ -81,6 +86,7 @@ body{
         font-weight: 600;
         line-height: 16px;
     }
+    
     .botaoSecundario{
        
         height: 40px;
