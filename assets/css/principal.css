@@ -5,7 +5,7 @@
     grid-row-gap: 64px;
     background-color: #E5E5E5;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .principal{
         grid-row-gap: 0;
         
