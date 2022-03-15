@@ -1,4 +1,4 @@
-.rodape__linkEFormulario{
+.rodape__link-formulario{
 
 background-color: #EAF2FD;
 display: flex;
@@ -12,10 +12,9 @@ height: 15rem;
    width: 49.30%;
    display: flex;
    flex-flow: column wrap;
-   justify-content: space-between;
    height: 100%;
 }
-.formulario__titulo{
+.rodape__formulario--titulo{
    
     font-size: 16px;
     font-style: normal;
@@ -23,16 +22,17 @@ height: 15rem;
     line-height: 19px;
     letter-spacing: 0em;
     color: #464646;
+    margin-bottom: 0.5rem;
 
 }
-.formulario__item--nome{
+.rodape__formulario--item.nome{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 8px 12px;
     border-radius: 4px ;
     background-color: #fff;
-    
+    margin-bottom: 1rem;
 }
 #nome{
     
@@ -49,7 +49,7 @@ height: 15rem;
     padding: 0;
     
 }
-.formulario__item--label{
+.rodape__formulario--item.label{
    
     font-size: 12px;
     font-style: normal;
@@ -62,20 +62,22 @@ height: 15rem;
 
 
 }
+.rodape__formulario--item.mensagem{
+    height: 82px;
+    margin-bottom: 0.5rem;
+    
+}
 #mensagem{
    
     padding: 16px 12px;
     border-radius: 4px;
-    height: 82px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: none;
     outline: none;
     width: 100%;
-  
-    
-
    
+  
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +93,6 @@ height: 15rem;
 }
 .rodape__lista{
     
-    width: 15.49%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(6,auto);
@@ -128,7 +129,7 @@ height: 15rem;
 }
 @media screen and (max-width: 767px){
    
-    .rodape__linkEFormulario{
+    .rodape__link-formulario{
         flex-direction: column;
         padding: 1rem;
         height: auto;
@@ -151,10 +152,10 @@ height: 15rem;
         grid-template-columns: 100%;
         grid-template-rows: repeat(4,auto);
     }
-    .formulario__titulo{
+    .rodape__formulario--titulo{
         margin-bottom: 1rem;
     }
-    .formulario__item--nome{
+    .rodape__formulario--item.nome{
         margin-bottom: 1rem;
     }
     #mensagem{
@@ -165,7 +166,7 @@ height: 15rem;
    }
 }
 @media screen and (min-width: 768px) and (max-width:1023px) {
-    .rodape__linkEFormulario{
+    .rodape__link-formulario{
         display: grid;
         grid-template-columns: auto calc((434 / 704)*100%);
         grid-template-rows: auto auto;
@@ -182,7 +183,7 @@ height: 15rem;
         grid-column: 1 / 1;
         grid-row: 2 / 3;
 
-        width: 100%;
+        
     }
     .rodape__formulario{
         grid-column: 2 / 3;
