@@ -24,7 +24,7 @@ body{
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    outline: none;
+    border: none;
 }
 .botaoPrimario:hover{
     background: #5595E9;
@@ -40,6 +40,7 @@ body{
     text-align: center;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
+    background: none;
 }
 .botaoSecundario:hover{
     background: #D4E4FA;
