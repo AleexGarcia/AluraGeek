@@ -1,0 +1,117 @@
+.areadelogin{
+    height: 291px;
+    background-color:#E5E5E5;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 91px 10.55%;
+    
+    
+}
+.areadelogin_titulo{
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #464646;
+
+}
+.areadelogin__email{
+    height: 63.126983642578125px;
+    width: 423px;
+    border-radius: 4px;
+    background-color: #fff;
+    border:  none ;
+    outline: none;
+    box-sizing: border-box;
+    padding: 18px 12px;
+    
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #A2A2A2;
+
+    
+
+
+}
+.areadelogin__senha{
+    height: 63px;
+    width: 423px;
+    border-radius: 4px;
+    background-color: #fff;
+    border:  none ;
+    outline: none;
+    box-sizing: border-box;
+    padding: 18px 12px;
+    
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #A2A2A2;
+  
+}
+.botaoDeLogin{
+    width: 423px;
+}
+@media screen and (max-width: 767px){
+  
+    .areadelogin{
+        height: 189px;
+        padding: 97px 0 76px 5px;
+    }
+    .areadelogin_titulo{
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+    .areadelogin__email{
+        width: 275px;
+        height: 41px;
+        padding: 8px 12px 13px 12px;
+    }
+    .areadelogin__senha{
+        width: 275px;
+        height: 41px;
+        padding: 8px 12px 13px 12px;
+    }
+    .botaoDeLogin{
+        width: 109px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:1023px)  {
+   .areadelogin{
+       height: 189px;
+       padding: 45px 0 61px 0;
+   }
+   
+    .areadelogin_titulo{
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+    .areadelogin__email{
+        width: 275px;
+        height: 41px;
+        padding: 8px 12px 13px 12px;
+    }
+    .areadelogin__senha{
+        width: 275px;
+        height: 41px;
+        padding: 8px 12px 13px 12px;
+    }
+    .botaoDeLogin{
+        width: 109px;
+    }
+
+}

@@ -1,0 +1,80 @@
+.botaoPrimario{
+    background: #2A7AE4;
+    height: 51px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border: none;
+}
+.botaoPrimario:hover{
+    background: #5595E9;
+    cursor: pointer;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+
+}
+.botaoSecundario{
+    height: 51px;
+    border-radius: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background: none;
+}
+.botaoSecundario:hover{
+    background: #D4E4FA;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 767px){
+    .botaoPrimario{
+        height: 40px;
+        padding: 12px, 16px, 12px, 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+    .botaoSecundario{
+       
+        height: 40px;
+        padding: 12px, 16px, 12px, 16px;
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+          
+    }
+  
+}
+@media screen and (min-width: 768px) and (max-width:1023px)  {
+    
+    .botaoPrimario{
+        height: 40px;
+        padding: 12px, 16px, 12px, 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+    
+    .botaoSecundario{
+       
+        height: 40px;
+        padding: 12px, 16px, 12px, 16px;
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+          
+    }
+}

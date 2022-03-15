@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(botoes.css);
+@import url(cabecalho.css);
+@import url(rodape.css);
+@import url(areadelogin.css);
+body{
+    font-family: Raleway, sans-serif;
+}
+.container{
+    padding: 0 10.55%;
+   
+}
+
+
+@media screen and (max-width: 767px){
+  
+    .container{
+        padding: 1rem;
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px)  {
+    .container{
+        padding: 2rem;
+    }
+   
+}
