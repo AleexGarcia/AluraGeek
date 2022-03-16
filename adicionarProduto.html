@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/base_login.css">
+    <link rel="stylesheet" href="assets/css/base__adicionarproduto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
     <main>
        <section class="add-produto">
            <h1 class="add-produto__titulo">Adicionar novo produto</h1>
-           <div>
+           <div class="box-superior">
                <div class="box-arrastar">
                    <span class="box-arrastar__icone-picture"><i></i></span>
                    <p class="box-arrastar__texto">Arraste para adicionar uma imagem para o produto</p>
@@ -33,7 +33,7 @@
                <p>Ou</p>
                 <button class="botaoSecundario add-produto__botao-busca">Procure no seu computador</button>
             </div>
-            <label for="nome-produto"><input class="add-produto__nome-produto" type="name" id="nome-produto" placeholder="Produto XYZ"></label>
+            <label for="nome-produto" class="add-produto__nome-produto label"><input class="add-produto__nome-produto" type="name" id="nome-produto" placeholder="Produto XYZ"></label>
             <label for="preco"><input type="number" class="add-produto__preco" id="preco" placeholder="R$ 60,00"></label>
             <textarea name="descricao" id="descricao" class="add-produto__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
             <button class="botaoPrimario add-produto__botao-add">Adicionar produto</button>

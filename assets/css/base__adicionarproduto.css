@@ -2,10 +2,8 @@
 @import url(normalize.css);
 @import url(botoes.css);
 @import url(cabecalho.css);
-@import url(promocional.css);
-@import url(produtos.css);
-@import url(principal.css);
 @import url(rodape.css);
+@import url(adicionarproduto.css);
 
 body{
     font-family: Raleway, sans-serif;

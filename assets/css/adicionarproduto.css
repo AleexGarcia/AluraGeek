@@ -1,0 +1,16 @@
+.add-produto{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5,auto);
+    padding: 64px 419px;
+    
+}
+.box-superior{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    column-gap: 0.5rem;
+
+}
+
