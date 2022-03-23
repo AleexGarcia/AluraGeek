@@ -1,112 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/base_produto.css">
+    <link rel="stylesheet" href="assets/css/base/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base/variaveis.css">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="assets/css/componentes/contato.css">
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/css/componentes/input.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/css/componentes/galeria.css">
+    <link rel="stylesheet" href="assets/css/produto.css">
     <title>Produto | AluraGeek</title>
 </head>
 <body>
     <header class="cabecalho container">
-        <h1><a href="index.html"><img src="assets/img/Logo.png" alt="Logo da AluraGeek" class="cabecalho__logo"></a></h1>
+
+        <h1><a href="index.html"><img src="assets/img/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo"></a>
+        </h1>
         <div class="cabecalho__search-box">
-            <input type="search" class="cabecalho__search-box--buscador" placeholder="O que deseja encontrar?">
+            <input type="search" class="search-box__input" placeholder="O que deseja encontrar?">
             <a href="#">
                 <img src="assets/img/Busca.svg" alt="Lupa buscador" class="cabecalho__search-box--image">
             </a>
         </div>
-        <button class="cabecalho__login botaoSecundario">Login</button>
-       <button class="cabecalho__busca" aria-label="Busca"><i></i></button>
+        <button type="button" class="cabecalho__login botao botao-secundario">Login</button>
+        <button class="cabecalho__busca" aria-label="Busca"><img src="assets/img/Busca_mobile.svg"
+                alt="icone de busca"></button>
     </header>
-    <main>
-        <section class="produtoXYZ container">
-            <figure class="produtoXYZ__figure">
-                <img src="assets/img/starwars/1-alta-resolucao.png" alt="Imagem do produto XYZ" class="produtoXYZ__img">
-                <figcaption class="produtoXYZ__figcaption">
-                        <h2 class="produtoXYZ__titulo">Produto XYZ</h2>
-                        <p class="produtoXYZ__preco">R$ 60,00</p>
-                        <p class="produtoXYZ__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+    <main class="principal">
+        <section class="produto container">
+            <figure class="produto__figure">
+                <img src="assets/img/starwars/1-alta-resolucao.png" alt="Imagem do produto XYZ" class="produto__img">
+                <figcaption class="produto__figcaption">
+                        <h2 class="produto__titulo">Produto XYZ</h2>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <p class="produto__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
                 </figcaption>
                     
             </figure>
         </section>
-        <section class="similares produtos container">
-            <h3 class="titulosecundario">Produto similares</h3>
-            <ul class="lista-produtos">
-                    <li class="produtos__cartao">
-                        <a href="produto.html"><img src="assets/img/starwars/1.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
+        <section class="star-wars galeria container">
+            <h3 class="galeria__titulo">Produtos similares</h3>
+            <ul class="starWars__lista galeria__lista">
+                <li class="star-wars__item cartao">
+                    <a href="produto.html"><img src="assets/img/starwars/1.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+                <li class="star-wars__item cartao">
+                    <a href="#"><img src="assets/img/starwars/2.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+                <li class="star-wars__item cartao">
+                    <a href="#"><img src="assets/img/starwars/3.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+                <li class="star-wars__item cartao">
+                    <a href="#"><img src="assets/img/starwars/4.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+                <li class="star-wars__item cartao">
+                    <a href="#"><img src="assets/img/starwars/5.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+                <li class="star-wars__item cartao">
+                    <a href="#"><img src="assets/img/starwars/6.png" alt="Imagem do Produto XYZ"
+                            class="cartao__imagem"></a>
+                    <h4 class="cartao__nome">Produto XYZ</h4>
+                    <p class="cartao__preco">R$ 60,00</p>
+                    <a href="#" class="cartao__link">Ver produto</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contato container">
+            <img class="contato__logo" src="assets/img/Logo.png" alt="Logo da AluraGeek">
+            <div class="contato__outros-links">
+                <a class="contato__link" href="#">Quem somos nós</a>
+                <a class="contato__link" href="#">Política de privacidade</a>
+                <a class="contato__link" href="#">Programa fidelidade</a>
+                <a class="contato__link" href="#">Nossas lojas</a>
+                <a class="contato__link" href="#">Quero ser franqueado</a>
+                <a class="contato__link" href="#">Anuncie aqui</a>
+            </div>
+            <form action="#" class="contato__formulario">
+                <ul class="contato__lista">
+                    <li class="contato__item">
+                        <h5 class="contato__titulo">Fale conosco</h5>
                     </li>
-                    <li class="produtos__cartao">
-                        <a href="#"><img src="assets/img/starwars/2.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
+                    <li class="contato__item">
+                        <label class="contato__label label" for="nome">Nome</label>
+                        <input type="text" placeholder="Alexandre Garcia" class="contato__input input">
                     </li>
-                    <li class="produtos__cartao">
-                        <a href="#"><img src="assets/img/starwars/3.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
+                    <li class="contato__item">
+                        <textarea name="mensagem" id="mensagem" class="textarea contato__textarea"
+                            placeholder="Escreva sua mensagem"></textarea>
                     </li>
-                    <li class="produtos__cartao">
-                        <a href="#"><img src="assets/img/starwars/4.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
-                    </li>
-                    <li class="produtos__cartao">
-                        <a href="#"><img src="assets/img/starwars/5.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
-                    </li>
-                    <li class="produtos__cartao">
-                        <a href="#"><img src="assets/img/starwars/6.png" alt="Imagem do Produto XYZ" class="produtos__img"></a>
-                        <h4 class="produtos__nome">Produto XYZ</h4>
-                        <p class="produtos__preco">R$ 60,00</p>
-                        <a href="#" class="produtos__link">Ver produto</a>
+                    <li class="contato__item">
+                        <button class="botao-primario contato__botao botao">Enviar mensagem</button>
                     </li>
                 </ul>
+            </form>
         </section>
     </main>
     <footer class="rodape">
-        <div class="rodape__link-formulario">
-            <img class="rodape__logo" src="assets/img/Logo.png" alt="Logo da AluraGeek">
-            <ul class="rodape__lista">
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Quem somos nós</a></li>
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Política de privacidade</a></li>
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Programa fidelidade</a></li>
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Nossas lojas</a></li>
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Quero ser franqueado</a></li>
-                <li class="rodape__lista-item"><a class="rodape__lista--link" href="#">Anuncie aqui</a></li>
-            </ul>
-            <ul class="rodape__formulario">
-                <li class="rodape__formulario--item">
-                    <h5 class="rodape__formulario--titulo">Fale conosco</h5>
-                </li>
-                <li class="rodape__formulario--item nome">
-                    <label class="rodape__formulario--item label" for="nome">Nome</label>
-                    <input type="text" placeholder="Alexandre Garcia" id="nome">
-                </li>
-                <li class="rodape__formulario--item mensagem">
-                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-                </li>
-                <li class="rodape__formulario--item botao">
-                    <button class="botaoPrimario enviarBotao">Enviar mensagem</button>
-                </li>
-            </ul>
-        </div>
-        <div class="rodape__desenvolvedor">
-            <p>Desenvolvido por Alexandre Garcia</p>
-            <p>2021</p>
-        </div>
+        <p>Desenvolvido por Alexandre Garcia<br>2021</p>
     </footer>
 </body>
 </html>

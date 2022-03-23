@@ -1,0 +1,65 @@
+.area-de-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 97px;
+    padding-bottom: 76px;
+}
+.area-de-login__titulo{
+    align-self: center;
+    font-size: var(--tamanho-padrao);
+    line-height: var(--altura-linha-02);
+    font-weight: var(--peso-destaque);
+    color: var(--preto);
+   
+}
+.area-de-login__botao{
+    align-self: center;
+    width: 109px;
+}
+.area-de-login__email{
+    height: 41px;
+    width: 275px;
+}
+.area-de-login__senha{
+    height: 41px;
+    width: 275px;
+}
+.area-de-login__botao--link{
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+@media screen and (min-width:767px) {
+    .area-de-login{
+       padding-top: 45px;
+       padding-bottom: 61px;
+    }
+}
+@media screen and (min-width:1023px) {
+    .area-de-login{
+        padding: 91px 0;
+    }
+    .area-de-login__titulo{
+        font-size: 18px;
+        line-height: 21.13px;
+        font-weight: var(--peso-destaque);
+    }
+    .area-de-login__email{
+        width: 423px;
+        height: 63px;
+    }
+    .area-de-login__senha{
+        width: 423px;
+        height: 63px;
+    }
+    .area-de-login__botao{
+        width: 423px;
+        height: 62px;
+    }
+
+}
