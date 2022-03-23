@@ -3,7 +3,7 @@
     background-position: center , center, center;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: cover, cover, cover;
-    height: 22rem;
+    height: 12rem;
     width: 100%;
    
 }
@@ -13,74 +13,40 @@
     flex-direction: column;
     height: 100%;
     box-sizing: border-box;
+    gap: .5rem;
 }
 .promocional__titulo{
     
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 61px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-    
-    margin-bottom: 1rem;
+    font-size: var(--tamanho-titulo-banner-mobile);
+    font-weight: var(--peso-destaque);
+    line-height: var(--altura-linha-03);
+    color: var(--branco);
 
 }
 .promocional__paragrafo{
 
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
+    font-size: var(--tamanho-menor);
+    font-weight: var(--peso-destaque);
+    line-height: var(--altura-linha-01);
+    color:var(--branco);
    
-    margin-bottom: 1rem;
 }
 .promocional__botao{
-    text-align: center;
- 
     width: 130px;
-    
-    margin-bottom: 2rem;
-}
-@media screen and (max-width: 767px) {
+} 
+@media screen and (min-width:763px) {
     .promocional{
-        height: 12rem;
+        height: 22rem;
+    }
+    .promocional__textos{
+        gap: 1rem;
     }
     .promocional__titulo{
-        font-size: 22px;
-        font-style: normal;
-        line-height: 25.83px;
-        margin-bottom: 0.5rem;
+        font-size: var(--tamanho-titulo-banner);
+        line-height: var(--altura-linha-05);
     }
     .promocional__paragrafo{
         font-size: 22px;
-        line-height: 25.83px;
-        margin-bottom: 1rem;
+        line-height: var(--altura-linha-03);
     }
-    .promocional__botao{
-        width: 119px;
-        margin-bottom: 0rem;
-    }
-}
-@media screen and (min-width: 768px) and (max-width:1023px){
-    
-    .promocional__titulo{
-        font-size: 52px;
-        font-style: normal;
-        line-height: 61.05px;
-        margin-bottom: 1rem;
-    }
-    .promocional__paragrafo{
-        font-size: 22px;
-        line-height: 25.83px;
-        margin-bottom: 1rem;
-    }
-    .promocional__botao{
-        margin-bottom: 0;
-    }
-    
 }

@@ -1,0 +1,33 @@
+.botao{
+    height: 40px;
+    border-radius: 0px;
+    text-align: center;
+    line-height: var(--altura-linha-01);
+    font-weight: var(--peso-botao-input);
+}
+.botao-primario{
+    
+    background: var(--azul);
+    color: var(--branco);
+    border: none;
+}
+.botao-primario:hover{
+
+    background: var(--azul-medio);
+    cursor: pointer;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+
+}
+.botao-secundario{
+
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    background: none;
+}
+.botao-secundario:hover{
+    background: var(--azul-claro);
+    cursor: pointer;
+    
+}
+

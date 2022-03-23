@@ -1,0 +1,39 @@
+:root{
+    --azul: #2A7AE4;
+    --azul-medio: #5595E9;
+    --azul-claro:#D4E4FA;
+    --branco:#FFFFFF;
+    --cinza-claro:#e5e5e5;
+    --cinza-muito-claro:#f5f5f5;
+    --cinza:#A2A2A2;
+    --cinza-intermedio:#C8C8C8;
+    --preto:#464646;
+
+    --familia-fonte: 'Raleway', sans-serif;
+   
+    --peso-destaque:700;
+    --peso-corpo:500;
+    --peso-botao-input:400;
+
+    --altura-linha-input:22px;
+    --altura-linha-input-mobile:20px;
+    --altura-linha-search:16px;
+    --altura-linha-05: 61.05px;
+    --altura-linha-04: 37.57px;
+    --altura-linha-03: 25.83px;
+    --altura-linha-02: 18.78px;
+    --altura-linha-01: 16.44px;
+
+    --tamanho-titulo-banner:52px;
+    --tamanho-titulo-section: 32px;
+    --tamanho-titulo-banner-mobile:22px;
+    --tamanho-titulo-section-mobile: 22px;
+    --tamanho-padrao: 16px;
+    --tamanho-menor: 14px;
+
+    
+
+
+  
+
+}

@@ -1,0 +1,34 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(../componentes/cabecalho.css);
+@import url(../componentes/botoes.css);
+@import url(../promocional.css);
+@import url(../componentes/cartao.css);
+@import url(../componentes/galeria.css);
+@import url(../contato.css);
+@import url(../componentes/input.css);
+@import url(../componentes/rodape.css);
+@import url(../principal.css);
+@import url(../starwars.css);
+
+body{
+    font-family: var(--familia-fonte);
+    font-weight: var(--peso-corpo);
+    font-size: var(--tamanho-padrao);
+    color: var(--preto);
+}
+.container{
+    padding: 1rem;
+}
+
+@media screen and (min-width:763px) {
+    .container{
+        padding: 2rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        padding-left: calc((152 / 1440)*100%);
+        padding-right: calc((152 / 1440)*100%);
+    }
+}

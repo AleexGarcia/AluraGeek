@@ -1,0 +1,48 @@
+.cartao{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,auto);
+    gap:0.5rem ;
+
+}
+.cartao__imagem{
+    width: 100%;
+}
+.cartao__nome{
+    font-size: var(--tamanho-menor);
+    line-height: var(--altura-linha-01);
+}
+.cartao__preco{
+    
+    font-weight: var(--peso-destaque);
+    line-height: var(--altura-linha-02);
+    
+}
+.cartao__link{
+
+    color: var(--azul);
+    font-weight: var(--peso-destaque);
+    line-height: var(--altura-linha-01);
+    text-decoration: none;
+}
+.cartao:nth-child(5){
+    display: none;
+}
+.cartao:nth-child(6){
+    display: none;
+}
+@media screen and (min-width:763px) {
+    
+    .cartao__link{
+        font-size: var(--tamanho-padrao);
+    }
+}
+@media screen and (min-width:1023px) {
+    .cartao:nth-child(5){
+        display: grid;
+    }
+    .cartao:nth-child(6){
+        display: grid;
+    }
+}
