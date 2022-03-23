@@ -33,6 +33,7 @@
     width: 100%;
     font-weight:var(--peso-botao-input) ;
     line-height: var(--altura-linha-input);
+    font-family: var(--familia-fonte);
     box-sizing: border-box;
     background-color: var(--branco);
     border: none;

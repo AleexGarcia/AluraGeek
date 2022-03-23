@@ -52,9 +52,9 @@
         justify-content: space-between;
         
     }
-    .cabecalho__search-box--buscador{
+    .search-box__input{
        
-        width: 208px;
+        width: 100%;
         border: none;
         background: none;
         outline: none;
@@ -75,11 +75,18 @@
         padding-left: calc((152 / 1440)*100%);
         padding-right: calc((152 / 1440)*100%);
     }
+    .cabecalho{
+        height: 115px;
+    }
     .cabecalho__logo{
        
         height: 50px;
     }
     .cabecalho__search-box{
         width: 393px;
+    }
+    .cabecalho__login{
+        width: 182px;
+        height: 51px;
     }
 }
