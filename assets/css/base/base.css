@@ -1,7 +1,3 @@
-@import url(reset.css);
-@import url(variaveis.css);
-
-
 body{
     font-family: var(--familia-fonte);
     font-weight: var(--peso-corpo);
