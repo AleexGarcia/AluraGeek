@@ -1,15 +1,6 @@
 @import url(_reset.css);
 @import url(_variaveis.css);
-@import url(../promocional.css);
-@import url(../contato.css);
-@import url(../principal.css);
-@import url(../starwars.css);
-@import url(../componentes/cabecalho.css);
-@import url(../componentes/botoes.css);
-@import url(../componentes/cartao.css);
-@import url(../componentes/galeria.css);
-@import url(../componentes/input.css);
-@import url(../componentes/rodape.css);
+
 
 body{
     font-family: var(--familia-fonte);
