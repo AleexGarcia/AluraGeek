@@ -8,6 +8,7 @@
     font-size: 22px;
     line-height: var(--altura-linha-03);
     align-self: flex-start;
+    font-style: bold;
 }
 .adicionar-novo-produto__add-box{
     height: 134px;
@@ -77,6 +78,9 @@
         width: 191px;
         text-align: center;
     }
+    .adicionar-novo-produto__botao-busca--desktop{
+        display: none;
+    }
     .adicionar-novo-produto__icone{
         content: url(../img/img-vector.svg);
     }
@@ -97,5 +101,16 @@
     }
     .adicionar-novo-produto__botao-busca{
         width: 239px;
+    }
+    .adicionar-novo-produto__titulo{
+        font-size: 32px;
+        
+        line-height: 37.57px;
+    }
+    .adicionar-novo-produto__botao-busca--tablet{
+        display: none;
+    }
+    .adicionar-novo-produto__botao-busca--desktop{
+        display: block;
     }
 }

@@ -65,7 +65,9 @@
 }
 @media  screen and (min-width:1023px) {
     .contato{
+        grid-template-columns: auto auto 1fr;
         grid-template-rows: auto;
+        gap: calc((112/1440)*100%);
     }
     .contato.container{
         padding: 64px calc((152 / 1440)*100%);

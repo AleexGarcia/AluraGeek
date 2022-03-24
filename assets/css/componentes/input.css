@@ -1,5 +1,6 @@
 .input{
     width: 100%;
+    font-size: var(--tamanho-padrao);
     font-family: var(--familia-fonte);
     font-weight:var(--peso-botao-input) ;
     line-height: var(--altura-linha-input);
@@ -31,6 +32,7 @@
 .textarea{
     resize: none;
     width: 100%;
+    font-size: var(--tamanho-padrao);
     font-weight:var(--peso-botao-input) ;
     line-height: var(--altura-linha-input);
     font-family: var(--familia-fonte);

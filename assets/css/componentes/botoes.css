@@ -4,6 +4,7 @@
     text-align: center;
     line-height: var(--altura-linha-01);
     font-weight: var(--peso-botao-input);
+    font-size: 14px;
 }
 .botao-primario{
     
@@ -30,4 +31,9 @@
     cursor: pointer;
     
 }
-
+@media screen and (min-width:1023px) {
+    .botao{
+        height: 51px;
+        font-size: 16px;
+    }
+}
