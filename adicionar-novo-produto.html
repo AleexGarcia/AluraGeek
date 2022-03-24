@@ -33,7 +33,7 @@
                 <img src="assets/img/Busca.svg" alt="Lupa buscador" class="cabecalho__search-box--image">
             </a>
         </div>
-        <button type="button" class="cabecalho__login botao botao-secundario">Login</button>
+            <button onclick="location.href='login.html'" type="button" class="cabecalho__login botao botao-secundario">Login</button>
         <button class="cabecalho__busca" aria-label="Busca"><img src="assets/img/Busca_mobile.svg"
                 alt="icone de busca"></button>
     </header>
@@ -50,15 +50,15 @@
                 <button type="button" class="botao botao-secundario adicionar-novo-produto__botao-busca">Procure no seu tablet</button>
             </div>
 
-            <form action="" class="adicionar-novo-produto__formulario">
+            <form action="#" class="adicionar-novo-produto__formulario">
                 <ul class="adicionar-novo-produto__lista">
                     <li class="adicionar-novo-produto__item">
-                        <label for="" class="label">Nome do produto</label>
-                        <input placeholder="Produto XYZ" type="text" class="adicionar-novo-produto__nome input">
+                        <label for="nome-produto" class="label">Nome do produto</label>
+                        <input id="nome-produto" placeholder="Produto XYZ" type="text" class="adicionar-novo-produto__nome input">
                     </li>
                     <li class="adicionar-novo-produto__item">
-                        <label for="" class="label">Preço do produto</label>
-                        <input placeholder="R$ 60,00"  type="number" class="adicionar-novo-produto__preco input">
+                        <label for="preco-produto" class="label">Preço do produto</label>
+                        <input id="preco-produto" placeholder="R$ 60,00"  type="number" class="adicionar-novo-produto__preco input">
                     </li>
                     <li class="adicionar-novo-produto__item">
                         <textarea placeholder="Descrição do produto" aria-label="Descrição do produto" name="descricao-produto" id="descricao-produto" cols="30" rows="10" class="adicionar-novo-produto__descricao textarea"></textarea>
@@ -85,8 +85,8 @@
                         <h5 class="contato__titulo">Fale conosco</h5>
                     </li>
                     <li class="contato__item">
-                        <label class="contato__label label" for="nome">Nome</label>
-                        <input type="text" placeholder="Alexandre Garcia" class="contato__input input">
+                        <label  class="contato__label label" for="nome">Nome</label>
+                        <input id="nome" type="text" placeholder="Alexandre Garcia" class="contato__input input">
                     </li>
                     <li class="contato__item">
                         <textarea name="mensagem" id="mensagem" class="textarea contato__textarea"

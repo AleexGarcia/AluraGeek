@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/componentes/input.css">
     <link rel="stylesheet" href="assets/css/principal.css">
     <link rel="stylesheet" href="assets/css/area-de-login.css">
-    
+
     <title>Login | AluraGeek</title>
 </head>
 
@@ -33,18 +33,20 @@
                 <img src="assets/img/Busca.svg" alt="Lupa buscador" class="cabecalho__search-box--image">
             </a>
         </div>
-        <button type="button" class="cabecalho__login botao botao-secundario">Login</button>
+        <button onclick="location.href='login.html'" type="button"
+            class="cabecalho__login botao botao-secundario">Login</button>
         <button class="cabecalho__busca" aria-label="Busca"><img src="assets/img/Busca_mobile.svg"
                 alt="icone de busca"></button>
     </header>
     <main class="principal">
         <section class="area-de-login">
             <h2 class="area-de-login__titulo">Iniciar Sessão</h2>
-            <label for="email"><input class="area-de-login__email input" type="email" aria-label="Escreva seu email" placeholder="Escreva seu email"></label>
-            <label for="password"><input class="area-de-login__senha input" type="password" aria-label="Escreva sua senha"
-                    placeholder="Escreva sua senha"></label>
-            <button class="botao-primario botao area-de-login__botao"><a class="area-de-login__botao--link"
-                    href="gerenciamento.html">Entrar</a></button>
+            <label for="email"><input id="email" class="area-de-login__email input" type="email"
+                    aria-label="Escreva seu email" placeholder="Escreva seu email"></label>
+            <label for="password"><input id="password" class="area-de-login__senha input" type="password"
+                    aria-label="Escreva sua senha" placeholder="Escreva sua senha"></label>
+            <button onclick="location.href='todos-os-produtos.html'"
+                class="botao-primario botao area-de-login__botao">Entrar</button>
         </section>
         <section class="contato container">
             <img class="contato__logo" src="assets/img/Logo.png" alt="Logo da AluraGeek">
@@ -63,7 +65,7 @@
                     </li>
                     <li class="contato__item">
                         <label class="contato__label label" for="nome">Nome</label>
-                        <input type="text" placeholder="Alexandre Garcia" class="contato__input input">
+                        <input id="nome" type="text" placeholder="Alexandre Garcia" class="contato__input input">
                     </li>
                     <li class="contato__item">
                         <textarea name="mensagem" id="mensagem" class="textarea contato__textarea"
