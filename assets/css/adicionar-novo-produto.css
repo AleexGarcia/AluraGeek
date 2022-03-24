@@ -1,0 +1,101 @@
+.adicionar-novo-produto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.adicionar-novo-produto__titulo{
+    font-weight: var(--peso-destaque);
+    font-size: 22px;
+    line-height: var(--altura-linha-03);
+    align-self: flex-start;
+}
+.adicionar-novo-produto__add-box{
+    height: 134px;
+    background-image: repeating-linear-gradient(0deg, var(--cinza-intermedio), var(--cinza-intermedio) 6px, transparent 6px, transparent 12px, var(--cinza-intermedio) 12px), repeating-linear-gradient(90deg, var(--cinza-intermedio), var(--cinza-intermedio) 6px, transparent 6px, transparent 12px, var(--cinza-intermedio) 12px), repeating-linear-gradient(180deg, var(--cinza-intermedio), var(--cinza-intermedio) 6px, transparent 6px, transparent 12px, var(--cinza-intermedio) 12px), repeating-linear-gradient(270deg, var(--cinza-intermedio), var(--cinza-intermedio) 6px, transparent 6px, transparent 12px, var(--cinza-intermedio) 12px);
+    background-size: 1px 100%, 100% 1px, 1px 100% , 100% 1px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    background-color: var(--branco);
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.adicionar-novo-produto__icone{
+    content: url(../img/mais-vetor.svg);
+    height: 32px;
+    width: 32px;
+}
+.adicionar-novo-produto__instrucao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza80);
+}
+.adicionar-novo-produto__instrucao--tablet-desktop{
+    display: none;
+}
+.adicionar-novo-produto__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.adicionar-novo-produto__botao{
+    width: 100%;
+}
+.adicionar-novo-produto__descricao{
+    height: 82px;
+    width: 100%;
+}
+.adicionar-novo-produto__div .ou{
+    display: none;
+
+}
+.adicionar-novo-produto__botao-busca{
+    display: none;
+}
+@media screen and (min-width:767px) {
+    .adicionar-novo-produto__add-box{
+        height: 152px;
+        width: 254px;
+    }
+    .adicionar-novo-produto__div{
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+
+    }
+    .adicionar-novo-produto__div .ou{
+        display: flex;
+    
+    }
+    .adicionar-novo-produto__botao-busca{
+        display: block;
+        height: 51px;
+        width: 191px;
+        text-align: center;
+    }
+    .adicionar-novo-produto__icone{
+        content: url(../img/img-vector.svg);
+    }
+    .adicionar-novo-produto__instrucao--mobile{
+        display: none;
+    }
+    .adicionar-novo-produto__instrucao--tablet-desktop{
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (min-width:1023px) {
+    .adicionar-novo-produto{
+        padding: 4rem calc((440.5 / 1440)*100%);
+    }
+    .adicionar-novo-produto__add-box{
+        width: 282px;
+    }
+    .adicionar-novo-produto__botao-busca{
+        width: 239px;
+    }
+}

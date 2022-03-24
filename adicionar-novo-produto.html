@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base/variaveis.css">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="assets/css/componentes/contato.css">
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/css/componentes/input.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/css/adicionar-novo-produto.css">
+    <title>Adicionar novo produto | AluraGeek</title>
+</head>
+
+<body>
+    <header class="cabecalho container">
+
+        <h1><a href="index.html"><img src="assets/img/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo"></a>
+        </h1>
+        <div class="cabecalho__search-box">
+            <input type="search" class="search-box__input" placeholder="O que deseja encontrar?">
+            <a href="#">
+                <img src="assets/img/Busca.svg" alt="Lupa buscador" class="cabecalho__search-box--image">
+            </a>
+        </div>
+        <button type="button" class="cabecalho__login botao botao-secundario">Login</button>
+        <button class="cabecalho__busca" aria-label="Busca"><img src="assets/img/Busca_mobile.svg"
+                alt="icone de busca"></button>
+    </header>
+    <main class="principal">
+        <section class="adicionar-novo-produto container">
+            <h2 class="adicionar-novo-produto__titulo">Adicionar novo produto</h2>
+            <div class="adicionar-novo-produto__div">
+                <div class="adicionar-novo-produto__add-box">
+                    <i class="adicionar-novo-produto__icone"></i>
+                    <p class="adicionar-novo-produto__instrucao adicionar-novo-produto__instrucao--mobile ">Adicionar uma imagem para o produto</p>
+                    <p class="adicionar-novo-produto__instrucao adicionar-novo-produto__instrucao--tablet-desktop ">Arraste para adicionar uma imagem para o produto</p>
+                </div>
+                <p class="ou">Ou</p>
+                <button type="button" class="botao botao-secundario adicionar-novo-produto__botao-busca">Procure no seu tablet</button>
+            </div>
+
+            <form action="" class="adicionar-novo-produto__formulario">
+                <ul class="adicionar-novo-produto__lista">
+                    <li class="adicionar-novo-produto__item">
+                        <label for="" class="label">Nome do produto</label>
+                        <input placeholder="Produto XYZ" type="text" class="adicionar-novo-produto__nome input">
+                    </li>
+                    <li class="adicionar-novo-produto__item">
+                        <label for="" class="label">Preço do produto</label>
+                        <input placeholder="R$ 60,00"  type="number" class="adicionar-novo-produto__preco input">
+                    </li>
+                    <li class="adicionar-novo-produto__item">
+                        <textarea placeholder="Descrição do produto" aria-label="Descrição do produto" name="descricao-produto" id="descricao-produto" cols="30" rows="10" class="adicionar-novo-produto__descricao textarea"></textarea>
+                    </li>
+                    <li class="adicionar-novo-produto__item">
+                        <button class="botao-primario botao adicionar-novo-produto__botao">Adicionar produto</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section class="contato container">
+            <img class="contato__logo" src="assets/img/Logo.png" alt="Logo da AluraGeek">
+            <div class="contato__outros-links">
+                <a class="contato__link" href="#">Quem somos nós</a>
+                <a class="contato__link" href="#">Política de privacidade</a>
+                <a class="contato__link" href="#">Programa fidelidade</a>
+                <a class="contato__link" href="#">Nossas lojas</a>
+                <a class="contato__link" href="#">Quero ser franqueado</a>
+                <a class="contato__link" href="#">Anuncie aqui</a>
+            </div>
+            <form action="#" class="contato__formulario">
+                <ul class="contato__lista">
+                    <li class="contato__item">
+                        <h5 class="contato__titulo">Fale conosco</h5>
+                    </li>
+                    <li class="contato__item">
+                        <label class="contato__label label" for="nome">Nome</label>
+                        <input type="text" placeholder="Alexandre Garcia" class="contato__input input">
+                    </li>
+                    <li class="contato__item">
+                        <textarea name="mensagem" id="mensagem" class="textarea contato__textarea"
+                            placeholder="Escreva sua mensagem"></textarea>
+                    </li>
+                    <li class="contato__item">
+                        <button class="botao-primario contato__botao botao">Enviar mensagem</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Alexandre Garcia<br>2021</p>
+    </footer>
+</body>
+
+</html>
